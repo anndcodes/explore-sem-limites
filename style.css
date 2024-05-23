@@ -1,0 +1,19 @@
+/* css reset  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --font: "Mulish", sans-serif;
+  /* colors */
+  --accent-color: #b52184;
+  --text-color: #312d64;
+  --bg-color: #f9f4fb;
+  --white: #ffffff;
+  --gradient-bg: linear-gradient(to right, #343193, #302c63);
+}
