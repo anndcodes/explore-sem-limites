@@ -17,3 +17,52 @@
   --white: #ffffff;
   --gradient-bg: linear-gradient(to right, #343193, #302c63);
 }
+
+body {
+  font-family: var(--font);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+img {
+  width: 100%;
+}
+
+h1, 
+h2,
+legend {
+  color: var(--accent-color);
+}
+
+/* hero section */
+#hero {
+  padding: 0 3.4rem 9.3rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero h1 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  padding-top: 1.7rem;
+}
+
+#hero p {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-block: .5rem 3.5rem;
+}
+
+#hero .arrow-btn {
+  width: 5.9rem;
+  height: 10.5rem;
+}
