@@ -20,6 +20,8 @@
 
 body {
   font-family: var(--font);
+  font-size: 1.6rem;
+  font-weight: 600;
   background-color: var(--bg-color);
   color: var(--text-color);
 }
@@ -28,10 +30,11 @@ img {
   width: 100%;
 }
 
-h1, 
+h1,
 h2,
 legend {
   color: var(--accent-color);
+  font-weight: 900;
 }
 
 /* hero section */
@@ -52,17 +55,38 @@ legend {
 
 #hero h1 {
   font-size: 3.2rem;
-  font-weight: 900;
   padding-top: 1.7rem;
 }
 
 #hero p {
   font-size: 2rem;
-  font-weight: 600;
-  padding-block: .5rem 3.5rem;
+  padding-block: 0.5rem 3.5rem;
 }
 
 #hero .arrow-btn {
   width: 5.9rem;
   height: 10.5rem;
+}
+
+/* cards section */
+#cards-section {
+  background-image: var(--gradient-bg);
+  padding: 5.3rem 3.9rem;
+  display: grid;
+  gap: 5rem;
+}
+
+#cards-section .card {
+  background-color: var(--white);
+  border-radius: 2rem;
+  padding: 2.7rem;
+}
+
+#cards-section .card h2 {
+  font-size: 3rem;
+  padding-block: 3.3rem 2rem;
+}
+
+#cards-section .card img {
+  width: 8rem;
 }
