@@ -189,6 +189,7 @@ footer {
 
 /* desktop version */
 @media screen and (min-width: 1024px) {
+  /* hero section */
   #hero {
     padding: 0 3rem 10.3rem 10.9rem;
     flex-direction: row-reverse;
@@ -207,5 +208,31 @@ footer {
   #hero p {
     font-size: 3.2rem;
     padding-block: 0.8rem 17.9rem;
+  }
+
+  /* cards section */
+  #cards-section {
+    padding: 6.4rem 11.1rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+  }
+
+  #cards-section .card {
+    border-radius: 2.4rem;
+    padding: 3.2rem;
+  }
+
+  #cards-section .card img {
+    width: 9.7rem;
+  }
+
+  #cards-section .card h2 {
+    font-size: 3.5rem;
+    padding-block: 4rem 2.4rem;
+  }
+
+  #cards-section .card p {
+    font-size: 2rem;
+    font-weight: 600;
   }
 }
