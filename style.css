@@ -186,3 +186,26 @@ footer {
   display: block;
   text-align: center;
 }
+
+/* desktop version */
+@media screen and (min-width: 1024px) {
+  #hero {
+    padding: 0 3rem 10.3rem 10.9rem;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  #hero .left {
+    align-items: flex-start;
+  }
+
+  #hero h1 {
+    font-size: 5.9rem;
+    padding-top: 31.2rem;
+  }
+
+  #hero p {
+    font-size: 3.2rem;
+    padding-block: 0.8rem 17.9rem;
+  }
+}
