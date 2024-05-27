@@ -53,8 +53,8 @@ legend {
 #hero .left {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 #hero h1 {
@@ -124,7 +124,7 @@ form fieldset textarea {
 
 form fieldset .input-wrapper {
   display: flex;
-  align-items: center ;
+  align-items: center;
   padding: 1.6rem;
 }
 
@@ -161,15 +161,15 @@ textarea {
 }
 
 form button {
-  width: 50%;
   background-image: var(--gradient-bg);
   color: var(--white);
   font-family: inherit;
   font-size: 1.4rem;
   font-weight: 700;
+  line-height: 2.4;
   border-radius: 1.6rem;
   padding: 1rem 1.6rem;
-  line-height: 2.4;
+  margin-top: 2.4rem;
 }
 
 #contact .right {
@@ -188,7 +188,7 @@ footer {
 }
 
 /* desktop version */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   /* hero section */
   #hero {
     padding: 0 3rem 10.3rem 10.9rem;
@@ -234,5 +234,24 @@ footer {
   #cards-section .card p {
     font-size: 2rem;
     font-weight: 600;
+  }
+
+  /* contact section */
+  #contact {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 9.2rem;
+    height: 61.2rem;
+  }
+
+  #contact .left {
+    padding-block: 9.5rem;
+    padding-inline: 10.9rem 0;
+    flex: 1;
+  }
+
+  #contact .right {
+    display: flex;
   }
 }
