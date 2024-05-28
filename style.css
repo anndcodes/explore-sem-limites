@@ -69,6 +69,11 @@ legend {
 #hero .arrow-btn {
   width: 5.9rem;
   height: 10.5rem;
+  transition: all 150ms ease-out;
+}
+
+#hero .arrow-btn:hover {
+  transform: scale(1.1);
 }
 
 #hero .right img {
@@ -98,6 +103,12 @@ legend {
   background-color: var(--white);
   border-radius: 2rem;
   padding: 2.7rem;
+  transition: all 200ms ease-in-out;
+  box-shadow: 5px 8px 8px #2e2e52;
+}
+
+#cards-section .card:hover {
+  transform: scale(1.05);
 }
 
 #cards-section .card h2 {
@@ -185,6 +196,16 @@ form button {
   border-radius: 1.6rem;
   padding: 1rem 1.6rem;
   margin-top: 2.4rem;
+  box-shadow: 3px 3px 5px #c2c2c2;
+  transition: all 500ms ease-in-out;
+}
+
+form button:hover {
+  background-image: linear-gradient(to right,  #302c63, #343193);
+}
+
+form button:focus {
+  box-shadow: none;
 }
 
 #contact .right {
